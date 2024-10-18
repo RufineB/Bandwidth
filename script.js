@@ -150,7 +150,7 @@ function handleNoClick() {
 // Function to submit a new ticket and add a row to the Excel file (Python)
 async function submitNewTicket(issueDescription) {
     // Send a request to the Python backend to create a new ticket
-    const response = await fetch('https://1dbd-35-247-60-45.ngrok-free.app/add_ticket', {
+    const response = await fetch('https://b5bf-34-74-22-49.ngrok-free.app/add_ticket', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
